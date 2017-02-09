@@ -32,3 +32,9 @@ table td,
 .variable,
 .entity.name.tag
 { color: #82C7C7 }
+
+
+// table -f https://www.npmjs.com/package/forever
+table tr:nth-child(2n) td {
+    background: none;
+}
