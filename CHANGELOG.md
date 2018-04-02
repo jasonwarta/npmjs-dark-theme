@@ -3,9 +3,9 @@
 
 ## 2.0
 ---
-+ Dark theme is avaliable for the next pages: Package, Search result, Documentation. Dropped support for the main page and other inner pages.
-+ npmjs.com/package regex
+- New UI npmjs.com.
+- Update package's page for new ui.
 
 ## 1.0
 ---
-+ Public and maintain (fixes)
+- Public and maintain (fixes)
