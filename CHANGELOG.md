@@ -4,7 +4,7 @@
 ## 2.0
 ---
 - New UI npmjs.com.
-- Update package's page for new ui.
+- Update theme for package page.
 
 ## 1.0
 ---

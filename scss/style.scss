@@ -1,3 +1,10 @@
-@-moz-document domain("npmjs.com") {
-	@import 'vars', 'base', 'editor', 'package-sidebar', 'docs-page';
+@-moz-document regexp('https?://www\\.npmjs\\.com/package/.*') {
+	@import 'colors', 'package_page', 'highlight';
 }
+
+
+// regexp
+// https?:\/\/www\.npmjs\.com\/package\/.*
+
+// regexp to css
+// https?://www\\.npmjs\\.com/package/.*
