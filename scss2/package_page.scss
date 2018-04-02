@@ -1,0 +1,82 @@
+// Specificity
+$specific_class: main;
+
+
+// Page bg
+.global__application___g4ZRy main {
+	background-color: $bg;
+}
+
+
+// Text
+#{$specific_class} .black,
+#{$specific_class} .hover-black:focus,
+#{$specific_class} .hover-black:hover {
+	color:  $white;
+}
+
+#{$specific_class} .black-80 {
+	color: transparentize($white, 0.2);
+}
+
+#{$specific_class} .black-60 {
+	color: transparentize($white, 0.4);
+}
+
+#{$specific_class} .black-50 {
+	color: transparentize($white, 0.5);
+}
+
+
+// Button
+#{$specific_class} .b--black-10 {
+	border-color: transparentize($white, 0.8); // origin transparentize($white, 0.9)
+}
+
+
+
+// Right Sidebar bg
+.package__rightSidebar___9dMXo {
+	background: $bg_darken;
+}
+
+
+// Icons
+.package__install___3jWoO svg,
+.package__downloads___1Bmfo svg,
+.package__runkit___1iQd- svg .line,
+.package__runkit___1iQd- svg .line-round {
+	fill: $white;
+}
+
+
+
+// Tabs bg color
+.tabs__tabs___17CUw {
+	background: $bg_darken;
+}
+
+
+// Tabs text color
+.tabs__tab___1gHZ2.tabs__yellow___1c2N8 .tabs__tabLink___2tDwu,
+.tabs__tabLink___2tDwu,
+.tabs__tab___1gHZ2.tabs__purple___3sUHq .tabs__tabLink___2tDwu,
+.tabs__tab___1gHZ2.tabs__violet___rtKBH .tabs__tabLink___2tDwu {
+	color: $white;
+}
+
+
+
+// Footer
+.footer__footer___20QpA {
+	background-color: $bg;
+}
+
+.footer__footer___20QpA h3 {
+	color: $white;
+}
+
+.footer__footer___20QpA a {
+	color: $white;
+}
+

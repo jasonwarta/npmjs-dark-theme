@@ -1,0 +1,62 @@
+// Markdown
+
+.markdown,
+.markdown p,
+.markdown li {
+	color: $white;
+}
+
+.markdown blockquote,
+.readme__readme___tmT33 p code {
+	background: $bg_darken;
+}
+
+// icons
+.markdown .deep-link .deep-link-icon {
+	fill: $white;
+}
+
+
+
+// Code highlight
+
+.markdown .highlight,
+.readme__readme___tmT33 pre {
+	background-color: $bg_darken;
+}
+
+
+.markdown .storage.type,
+.markdown .keyword,
+.markdown .variable
+{
+	color: $half_baked;
+}
+
+
+.markdown .highlight,
+{
+	color: $tropical_blue;
+}
+
+
+.markdown .string,
+.markdown .entity.name.function
+{
+	color: $sweet_pink;
+}
+
+
+.markdown .support.constant,
+.markdown .support.function,
+.markdown .support.type
+{
+	color: $white;
+}
+
+
+// table
+.markdown td, .markdown th {
+	color: #222;
+}
+
